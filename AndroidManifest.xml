@@ -312,7 +312,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
 	          </intent-filter>
 	       </activity>
-   <activity
+        <activity
 	    android:name=".one_piece"
 	    android:label="One - Piece" >
 	    <intent-filter>
@@ -321,5 +321,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 <category android:name="android.intent.category.DEFAULT" />
 	    </intent-filter>
 	 </activity>
+        <activity
+            android:name=".hunterxhunter"
+            android:label="HunterxHunter" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
    </application>
 </manifest>
